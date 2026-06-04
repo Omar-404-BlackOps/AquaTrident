@@ -17,5 +17,5 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 
 
 ---
-##How to reCreate this project:
+## How to reCreate this project:
 
