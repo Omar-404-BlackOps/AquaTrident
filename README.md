@@ -29,10 +29,10 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 2-	Based on sample codes along with modifications, system’s feedback / control logic such as (IF–THEN rules) and (ON/OFF- control) was implemented using “Arduino IDE” software as shown, where if the parameters setpoints’ windows were exceeded, a signal is transmitted activating the actuators to recover the systems optimal conditions, in addition to a database library of 2 different aquatic species ensuring system modifiability.
 ---
 ### Construction & Connections:
-1-	Using bread board and jumper wires, sensors’ signal pins were connected to Arduino’s analog pins (A0, A1, A2) enabling real time monitoring, sensors VCC pins were connected to Arduino’s 5V providing safe operating voltage, and LCD were attached to the Arduino through I2C enabling data logging.
-2-	Relay modules’ A2 pins were connected to Arduino’s digital pins (D5, D6, D7) along with connecting A1 pins to Arduino’s 5V and connecting all NO pins to actuators positive pins enabling control.
-3-	All relay’s COM (common) pins were connected to the 12V power supply and finally a common ground was established across all the circuit ensuring a stable and safe circuit. 
-4-	A Silicon paste coupled with Teflon tape were used to seal glass tank’s leakage, the shelf was fixed on the tank top using glue, then the bread board circuit along side with sensors and actuators were attached properly to the tank. 
+1-Using bread board and jumper wires, sensors’ signal pins were connected to Arduino’s analog pins (A0, A1, A2) enabling real time monitoring, sensors VCC pins were connected to Arduino’s 5V providing safe operating voltage, and LCD were attached to the Arduino through I2C enabling data logging.
+2-Relay modules’ A2 pins were connected to Arduino’s digital pins (D5, D6, D7) along with connecting A1 pins to Arduino’s 5V and connecting all NO pins to actuators positive pins enabling control.
+3-All relay’s COM (common) pins were connected to the 12V power supply and finally a common ground was established across all the circuit ensuring a stable and safe circuit. 
+4-A Silicon paste coupled with Teflon tape were used to seal glass tank’s leakage, the shelf was fixed on the tank top using glue, then the bread board circuit along side with sensors and actuators were attached properly to the tank. 
 --- 
 ### Calibration:
 
