@@ -52,6 +52,8 @@ Two main calibration procedures were followed inside school chemistry lab:
 A.	Multipoint (3-point): this method was used to calibrate the pH sensor, where voltage was measured at 3 various standard buffer solutions (4,7,10).
 B.	Zero and Span: this method was used to calibrate the TDS and Turbidity sensors, where voltage was measured at (0 ppm) and (0 NTU) respectively then at (1000 ppm) and (3000 NTU) respectively.
 Mapping output voltage to standard values, calibration curves were generated at Excel, driving equations that are used in code to convert raw voltage into real accurate measurements, as shown in this pic.:
+
+
 ---
 <img width="862" height="1280" alt="5841623738879774613" src="https://github.com/user-attachments/assets/4eb6b247-1adb-45b6-a8a6-c9d565b7cb2b" />
 
