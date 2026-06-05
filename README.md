@@ -21,14 +21,14 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 
 ### Pre-Construction: - 
 
-1-	Aquaculture system was decided; parameters (pH, TDS, and Turbidity) were acquired from research and setpoints’ windows were established based on Tilapia fish’s vital conditions.
-2-	Desired Sensors (pH, TDS, and Turbidity), actuators (water pump, solenoid valve and aerator) and other electronics were identified, purchased and prepared  from storess. 
-3-	Datasheets, tutorials, sample codes and calibration procedures were previewed and analyzed providing accurate basic information.
+1. Aquaculture system was decided; parameters (pH, TDS, and Turbidity) were acquired from research and setpoints’ windows were established based on Tilapia fish’s vital conditions.
+2. Desired Sensors (pH, TDS, and Turbidity), actuators (water pump, solenoid valve and aerator) and other electronics were identified, purchased and prepared  from storess. 
+3. Datasheets, tutorials, sample codes and calibration procedures were previewed and analyzed providing accurate basic information.
 ---
 ### System design and Programming:
 
-1-	Electric circuit was planned consequently the wiring diagram and pins’ connections were defined as shown in (The 1st and second Image), where this schematic diagram was visualized and simulated using “KiCad” software ensuring right connections. 
-2-	Based on sample codes along with modifications, system’s feedback / control logic such as (IF–THEN rules) and (ON/OFF- control) was implemented using “Arduino IDE” software as shown, where if the parameters setpoints’ windows were exceeded, a signal is transmitted activating the actuators to recover the systems optimal conditions, in addition to a database library of 2 different aquatic species ensuring system modifiability.
+1. Electric circuit was planned consequently the wiring diagram and pins’ connections were defined as shown in (The 1st and second Image), where this schematic diagram was visualized and simulated using “KiCad” software ensuring right connections. 
+2. Based on sample codes along with modifications, system’s feedback / control logic such as (IF–THEN rules) and (ON/OFF- control) was implemented using “Arduino IDE” software as shown, where if the parameters setpoints’ windows were exceeded, a signal is transmitted activating the actuators to recover the systems optimal conditions, in addition to a database library of 2 different aquatic species ensuring system modifiability.
 ---
 
 ### Construction & Connections:
@@ -40,6 +40,7 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 3.All relay’s COM (common) pins were connected to the 12V power supply and finally a common ground was established across all the circuit ensuring a stable and safe circuit. 
 
 4.A Silicon paste coupled with Teflon tape were used to seal glass tank’s leakage, the shelf was fixed on the tank top using glue, then the bread board circuit along side with sensors and actuators were attached properly to the tank. 
+
 --- 
 
 ### Calibration:
