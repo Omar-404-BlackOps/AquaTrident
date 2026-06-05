@@ -13,7 +13,6 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 
 <img width="1280" height="902" alt="c2e9d251-4545-43a5-a7b6-ca73751aa066" src="https://github.com/user-attachments/assets/5781a49f-2bdf-47d0-acdf-14e79d5f8ec6" />
 <img width="826" height="573" alt="4f7e2d54-9d40-4ce1-b2d0-a852733aa8c2" src="https://github.com/user-attachments/assets/e7a241ce-6d38-4e91-9a53-7d12257c28fa" />
-<img width="1312" height="672" alt="image" src="https://github.com/user-attachments/assets/4388f4ac-6c88-4f3a-8bff-953bcc380ae9" />
 
 
 ---
@@ -30,7 +29,9 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 1. Electric circuit was planned consequently the wiring diagram and pins’ connections were defined as shown in (The 1st and second Image), where this schematic diagram was visualized and simulated using “KiCad” software ensuring right connections. 
 2. Based on sample codes along with modifications, system’s feedback / control logic such as (IF–THEN rules) and (ON/OFF- control) was implemented using “Arduino IDE” software as shown, where if the parameters setpoints’ windows were exceeded, a signal is transmitted activating the actuators to recover the systems optimal conditions, in addition to a database library of 2 different aquatic species ensuring system modifiability.
 ---
+<img width="1312" height="672" alt="image" src="https://github.com/user-attachments/assets/4388f4ac-6c88-4f3a-8bff-953bcc380ae9" />
 
+---
 ### Construction & Connections:
 
 1.Using bread board and jumper wires, sensors’ signal pins were connected to Arduino’s analog pins (A0, A1, A2) enabling real time monitoring, sensors VCC pins were connected to Arduino’s 5V providing safe operating voltage, and LCD were attached to the Arduino through I2C enabling data logging.
