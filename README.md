@@ -17,7 +17,7 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 ---
 ## How to reCreate this project:
 
-###BOM:
+### BOM:
 <img width="929" height="446" alt="image" src="https://github.com/user-attachments/assets/190872ad-70c1-4135-8a74-dd5e85a56576" />
 
 
