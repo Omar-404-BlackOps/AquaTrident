@@ -16,12 +16,17 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 
 ---
 ## How to reCreate this project:
+###BOM:
+<img width="929" height="446" alt="image" src="https://github.com/user-attachments/assets/190872ad-70c1-4135-8a74-dd5e85a56576" />
+
 
 ### Pre-Construction: - 
 
 1. Aquaculture system was decided; parameters (pH, TDS, and Turbidity) were acquired from research and setpoints’ windows were established based on Tilapia fish’s vital conditions.
-2. Desired Sensors (pH, TDS, and Turbidity), actuators (water pump, solenoid valve and aerator) and other electronics were identified, purchased and prepared  from storess. 
+2. Desired Sensors (pH, TDS, and Turbidity), actuators (water pump, solenoid valve and aerator) and other electronics were identified, purchased and prepared from stores. 
 3. Datasheets, tutorials, sample codes and calibration procedures were previewed and analyzed providing accurate basic information.
+
+   So, firstly buy your materials... (As provided in the BOM)
 ---
 ### System design and Programming:
 
@@ -39,7 +44,7 @@ AquaTrident, as its name suggests, is an aquaculture control/feedback system tha
 
 3.All relay’s COM (common) pins were connected to the 12V power supply and finally a common ground was established across all the circuit ensuring a stable and safe circuit. 
 
-4.A Silicon paste coupled with Teflon tape were used to seal glass tank’s leakage, the shelf was fixed on the tank top using glue, then the bread board circuit along side with sensors and actuators were attached properly to the tank. 
+4.A Silicon paste coupled with Teflon tape were used to seal glass tank’s leakage, the shelf was fixed on the tank top using glue, then the bread board circuit alongside with sensors and actuators were attached properly to the tank. 
 
 --- 
 <img width="826" height="573" alt="4f7e2d54-9d40-4ce1-b2d0-a852733aa8c2" src="https://github.com/user-attachments/assets/e7a241ce-6d38-4e91-9a53-7d12257c28fa" />
